@@ -1,9 +1,10 @@
-import {Friend} from './Friend';
+import { Friend } from './Friend';
+import { FriendsList } from './Friends.styled';
 
 export const FriendList = ({ friends }) => {
     return (
-        <ul className="friend-list">
+        <FriendsList className="friend-list">
             <Friend friends={friends} />
-        </ul>
+        </FriendsList>
     )
 }

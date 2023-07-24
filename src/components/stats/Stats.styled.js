@@ -24,5 +24,5 @@ export const Stats = styled.section`
 `;
 
 export const Data = styled.li`
-  background-color: ${props => props.getrandomhexcolor};
+  background-color: ${props => props.$getrandomhexcolor};
 `;

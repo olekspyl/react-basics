@@ -8,7 +8,7 @@ export const Datum = ({ stats }) => {
     }
     return stats.map(({id, label, percentage}) => {
         return (
-                <Data className="item" key={id} getrandomhexcolor={getRandomHexColor()}>
+                <Data className="item" key={id} $getrandomhexcolor={getRandomHexColor()}>
                     <span className="label">{label}</span>
                     <span className="percentage">{percentage }</span>
                 </Data>

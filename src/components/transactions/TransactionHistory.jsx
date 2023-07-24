@@ -1,8 +1,9 @@
-import { Transaction } from "./Transaction"
+import { Transaction } from "./Transaction";
+import {Table} from './Transactions.styled'
 
 export const TransactionHistory = ({ items }) => {
     return (
-        <table className="transaction-history">
+        <Table className="transaction-history">
   <thead>
     <tr>
       <th>Type</th>
@@ -14,6 +15,6 @@ export const TransactionHistory = ({ items }) => {
   <tbody>
     <Transaction items={items}></Transaction>
   </tbody>
-</table>
+</Table>
     )
 }
